@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 title: Symfony PHP på svenska
 metadescription: Svensk användargrupp för PHP-ramverket Symfony.
 ---
