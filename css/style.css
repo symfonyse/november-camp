@@ -549,12 +549,12 @@ body {
 }
 #back {
 	position: fixed;
-	width: 1920px;
-	height: 1920px;
+	width: 100%;
+	height: 1000px;
 	z-index: 1;
-	top: -430px;
-	left: -20%;
 
+
+	background: url('../images/bg.jpg') no-repeat center center;
 }
 @-webkit-keyframes rotate {
   from { -webkit-transform:rotate(-180deg);}
