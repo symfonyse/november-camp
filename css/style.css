@@ -554,21 +554,7 @@ body {
 	z-index: 1;
 	top: -430px;
 	left: -20%;
-	
-	-webkit-animation-name: rotate;
-	-webkit-animation-duration:700s;
-	-webkit-animation-iteration-count:infinite;
-	-webkit-animation-timing-function:linear;
-	-moz-animation-name: rotate;
-	-moz-animation-duration:700s;
-	-moz-animation-iteration-count:infinite;
-	-moz-animation-timing-function:linear;
-	animation-name: rotate;
-	animation-duration:700s;
-	animation-iteration-count:infinite;
-	animation-timing-function:linear;
 
-	background: url('../images/bg.jpg') no-repeat center center;
 }
 @-webkit-keyframes rotate {
   from { -webkit-transform:rotate(-180deg);}
