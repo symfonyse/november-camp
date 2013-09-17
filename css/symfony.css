@@ -1,0 +1,15 @@
+.brand span{
+	margin: 30px 0 0 10px;
+	float: left;	
+}
+
+.icon-logo{
+	background-image: url('../images/logo-icon.png');
+	width: 75px;
+	height: 75px;
+	float: left;
+}
+
+.navbar .nav{
+	margin: 15px 10px 0 0;
+}
