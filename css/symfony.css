@@ -13,3 +13,11 @@
 .navbar .nav{
 	margin: 15px 10px 0 0;
 }
+
+.wrapper a{
+	text-decoration: underline;
+}
+
+.wrapper a:hover;{
+	text-decoration: none;
+}
