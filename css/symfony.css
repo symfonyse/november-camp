@@ -14,10 +14,25 @@
 	margin: 15px 10px 0 0;
 }
 
+.buy-button {
+	background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg.png') no-repeat scroll 0% 0% transparent;
+	color: #00245D;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	height: 55px;
+	padding-top: 15px;
+	text-decoration: none;
+	text-indent: 25px;
+	width: 170px;
+}
+
 .wrapper a{
 	text-decoration: underline;
 }
 
-.wrapper a:hover;{
+.wrapper a:hover,
+.wrapper .buy-button {
 	text-decoration: none;
 }
