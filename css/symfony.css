@@ -1,3 +1,7 @@
+.clear{
+	clear:both;
+}
+
 .brand span{
 	margin: 30px 0 0 10px;
 	float: left;	
