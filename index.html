@@ -17,7 +17,7 @@
         <link href="css/colors.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
-		<link href="css/symfony.css" rel="stylesheet">
+        <link href="css/symfony.css" rel="stylesheet">
 
         <!-- Favicon and touch icons  -->
         <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
@@ -52,11 +52,11 @@
                         <div class="nav-collapse collapse">
 
                             <ul class="nav pull-right">
-                        	<li><a href="/">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="#home">November Camp</a></li>
                                 <li><a href="#labs">Labs</a></li>
                                 <li><a href="#speakers">Speakers</a></li>
-				<li><a href="#sponsors">Sponsors</a></li>
+                                <li><a href="#sponsors">Sponsors</a></li>
                                 <li><a href="#venue">Venue</a></li>
                                 <li><a href="#tickets">Tickets</a></li>
                                 <!--
@@ -98,8 +98,8 @@
             </div>
         </section>
 
-	<!-- Labs -->
-        <section class="wrapper bg-turquoise colored">
+    <!-- Labs -->
+        <section class="wrapper mini-wrapper bg-turquoise colored">
             <a class="anchor" id="labs"></a>
             <div class="container">
                 <div class="row">
@@ -113,12 +113,12 @@
                 <div class="row">
                     <div class="span12 text-center">
                         <p>
-			We're really excited to announce that November Camp 2014 will have be the first Symfony conference to feature labs sessions. You'll be able to take the inspiration you'll get from the conference day and cultivate into ideas on how to apply what you've learned in your own application.
+            We're really excited to announce that November Camp 2014 will have be the first Symfony conference to feature labs sessions. You'll be able to take the inspiration you'll get from the conference day and cultivate into ideas on how to apply what you've learned in your own application.
                         </p>
                         <p>
                         Saturday is labs day, and we'll have labs featuring experts on Symfony, PHP, User Experience, Server and network architecture and many other subjects. Bring your code, your prototype, or your ideas and show our experts, to get feedback, guidance and new ideas.
                         </p>
-		    </div>
+            </div>
                 </div>
 
             </div>
@@ -126,48 +126,179 @@
 
 
         <!-- Speakers -->
-        <section class="wrapper mini-wrapper bg-turquoise colored">
+        <section class="wrapper mini-wrapper bg-white">
             <a class="anchor" id="speakers"></a>
             <div class="container">
                 <div class="row">
                     <div class="span12 text-center">
                         <hgroup>
                             <h2>Speakers</h2>
-                            <p class="lead">
-                                The call for paper is closed, stay tuned for speaker announcements!
-                            </p>
                         </hgroup>
                     </div>
                 </div>
+
+                <div class="row speaker-row">
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/Mathias_Verraes.jpg" alt="Mathias Verraes"/>
+                            </div>
+                            <div class="span9">
+                                <h4>Decoupling the Model from the Framework</h4>
+                                <span>by Mathias Verraes</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/mathiasverraes">@mathiasverraes</a>
+                                <p>Domain-Driven Design tackles the fundamental difficulty of working with complexity in software. It puts the domain model in the center of the system, blissfully ignorant of the infrastructure around it. But as soon as you try to build even a simple application, using some of the patterns and ideas from DDD, you tend to get stuck. The framework begins to fight back. It seems it has a will of its own, and it dictates how you should structure your code. Is a strong, independent domain model just a theoretical ideal?</p>
+                                <p>You can have both the benefits of framework, and the freedom to model to your needs. We’ll explore patterns, flow, coupling, and reasoning about code.</p>
+                                <p>Mathias Verraes is a recovering music composer turned programmer, blogger, and speaker. He’s the owner of Value Object Comm.V, a small consultancy company. As a technical and strategic advisor, Mathias helps teams to build enterprise applications for complex business domains. For some weird reason, he enjoys improving legacy projects. He’s teaches Domain-Driven Design courses, and founded the Belgian DDD community. Mathias lives in Kortrijk, Belgium, where in his spare time he reads books, and invents crazy Lego structures with his two boys.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/matthias-noback.jpg" alt="Matthias Noback"/>
+                            </div>
+                            <div class="span9">
+                                <h4>A Series of Fortunate Events</h4>
+                                <span>with Matthias Noback</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/matthiasnoback">@matthiasnoback</a>
+                                <p>What is an event really? How can you best describe an event in your code? What types of events are there, and how do you decide whether or not to implement something as an event?</p>
+                                <p>In this talk we start with a straightforward command-only piece of code. We extract events from it and start moving the event handling code out, trying different design patterns on the way. First we try Observer. Then we introduce event data, event handlers and a Mediator between our code and the event handlers. Finally we pick a well-known event dispatcher implementation (the Symfony EventDispatcher) and see how it uses the Chain of Responsibility design pattern to control the entire flow of a web application request.</p>
+                                <p>In the end I will answer some burning questions like: is it safe to use events all over the place and rely on event handlers to do some really important stuff? How do I overcome the indirection in my event-driven code? And how can I quickly find out what happens where?</p>
+                                <p>Matthias Noback started his professional career 12 years ago as a freelance web developer. After working as a PHP developer for various companies, he decided to try something else; though programming will always be his passion, he has now taken this further and is also teaching, writing and consulting. He is the author of "A Year With Symfony" and "Principles of PHP Package Design" and regularly posts on his blog <a target="_blank" href="http://php-and-symfony.matthiasnoback.nl">PHP & Symfony</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row speaker-row">
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/raul_fraile.jpg" alt="Raul Fraile"/>
+                            </div>
+                            <div class="span9">
+                                <h4>Malicious cryptography in Symfony apps</h4>
+                                <span>with Raul Fraile</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/raulfraile">@raulfraile</a>
+                                <p>Cryptovirology studies how to use cryptography to design malicious software, given that public-key cryptography can be used to break the symmetry between what an antivirus analyst sees regarding a virus and what the virus writer sees. In this talk we will create a simple cryptovirus in PHP - for educational purposes - able to infect a Symfony2 app and encrypt data such as database records or user uploaded files using public key cryptography with OpenSSL.</p>
+                                <p>To create the virus we will study how Symfony works internally, especially what kernel events are dispatched and how to use them to attach our virus. Several strategies to hide the virus will be discussed. Simple ones like using different encodings and more advanced strategies such as polymorphic code. Finally, we will see how we can defend ourselves from this kind of attacks.</p>
+                                <p>Software engineer at Acilia, specialised in PHP and Symfony2. SensioLabs Symfony Certified Developer and PHP Zend Certified Engineer. I hold a BS degree in Computer Science and I am currently a MSc(Res) student in Computing Technologies, focused on data compression, cryptography and steganography. Created LadybugPHP, an extensible PHP dumper. Love reading and learning new stuff every day. Proud dad.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/Carl_Vuorinen.png" alt="Carl Vuorinen"/>
+                            </div>
+                            <div class="span9">
+                                <header>
+                                    <h4>Tackling technical debt</h4>
+                                    <h5>- breathe new life into a legacy project with Symfony2</h5>
+                                </header>
+                                <span>with Carl Vuorinen</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/cvuorinen">@cvuorinen</a>
+                                <p>Dealing with an old legacy project can be frustrating. Most of the time a massive rewrite is not feasible and you are left to deal with a codebase that is far from ideal, has lots of technical debt and bad practices.</p>
+                                <p>In this talk you'll learn how you can use Symfony2 framework side by side with a legacy codebase. The talk will cover how to introduce new features to the software using high quality code and best practices while at the same time maintaining the legacy codebase. We'll also explore some strategies for refactoring the old code a little bit at a time using Symfony components.</p>
+                                <p>Carl Vuorinen is a web developer and team lead at W3 Group Finland. He has over ten years of experience in web development and has been working with commercial PHP projects since 2005. He has experience with various open source frameworks, lately focusing on Symfony2 and AngularJS frameworks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row speaker-row">
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/niklas_modess.jpg" alt="Niklas Modess"/>
+                            </div>
+                            <div class="span9">
+                                <h4>Deploying PHP applications</h4>
+                                <span>with Niklas Modess</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/niklasmodess">@niklasmodess</a>
+                                <p>The world of PHP is very interesting right now and it has been catching up on  best coding practises. It's time we bring our deploy processes up to par with this and start using best practises for it as well. So what are the goals for it and which steps can be taken to reach them? How can we make the process fit better into the more and more Agile world we live in?</p>
+                                <p>Niklas Modess is a freelance web architect. Works mostly with Laravel, but it wouldn't exist without the awesome Symfony components. He has always been interested in the deploy process and is currently writing a book on the subject. Trying to spread the word on how a great deploy process makes life as a developer so much easier!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/Pawel_Jedrzejewski.jpg" alt="Paweł Jędrzejewski"/>
+                            </div>
+                            <div class="span9">
+                                <header>
+                                    <h4>Introduction to Sylius</h4>
+                                    <h5>- Symfony2 e-commerce</h5>
+                                </header>
+                                <span>with Paweł Jędrzejewski</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/pjedrzejewski">@pjedrzejewski</a>
+                                <p>Developers and shop owners are looking for alternatives to complex and monolithic solutions. Sylius is built on top of the latest technologies in PHP world and is one of the most promising e-commerce platforms.</p>
+                                <p>In this talk I will introduce the ideas & philosophy behind the project and show how easy it is to customize Sylius.</p>
+                                <p>Paweł is an entrepreneur and software developer living in Poland. In 2011 he created Sylius - an open source e-commerce solution for Symfony2. Project is still in development with more than 150 contributors and nearly 500,000 downloads, but has already been used by people worldwide. Lakion, his company, is providing commercial services for Sylius and supports the community.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row speaker-row">
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/Magnus_Nordlander.jpg" alt="Magnus Nordlander"/>
+                            </div>
+                            <div class="span9">
+                                <h4>Honey, I blew up the application performance</h4>
+                                <span>with Magnus Nordlander</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/drrotmos">@drrotmos</a>
+                                <p>So, your code is slow. Tough break. What should you do? Panic? Gather your fellow developers into a post-apocalyptic band of thugs, go into the woods and call yourselves "the wolverines"? No. You attend my presentation on how to profile your code, and I'll give you a primer on how to take care of your slow code.</p>
+                                <p>I'll start by going over how to use the Symfony Web Profiler to gather some high-level data, and how to write your own data collectors, and then we'll move on to using tools like Xdebug or XHProf to gather PHP profiling data, and how to analyze it.</p>
+                                <p>Magnus Nordlander is a Symfony Consultant at Fervo AB. He has been working with the web for over ten years, and has worked with Symfony for more than seven of them. He was the first Swedish developer to become SensioLabs certified Symfony developer at the expert level, and when he’s not coding, he is also a co-host of the Sound of Symfony podcast.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </section>
 
-		<!-- Sponsor -->
-	        <section class="wrapper mini-wrapper bg-white">
-	            <a class="anchor" id="sponsors"></a>
-	            <div class="container">
-	                <div class="row">
-	                    <div class="span12 text-center">
-	                        <hgroup>
-	                            <h2>Sponsors</h2>
-	                        </hgroup>
-	                    </div>
-	                </div>
-					<div class="row">
-	                    <div class="span2"></div>
-						<div class="span8 text-center">
-							<h3>Do you want to become a sponsor of November Camp 2014?</h3> 
-							<p>Read our 
-								<a target="_blank" href="https://github.com/symfonyse/november-camp/raw/gh-pages/SponsorGuide.pdf">sponsor guide</a> to find out about our sponsor packages.</p>
-						</div>
-						<div class="span2"></div>
-	                </div>
+        <!-- Sponsor -->
+            <section class="wrapper mini-wrapper bg-turquoise colored">
+                <a class="anchor" id="sponsors"></a>
+                <div class="container">
+                    <div class="row">
+                        <div class="span12 text-center">
+                            <hgroup>
+                                <h2>Sponsors</h2>
+                            </hgroup>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="span2"></div>
+                        <div class="span8 text-center">
+                            <h3>Do you want to become a sponsor of November Camp 2014?</h3>
+                            <p>Read our
+                                <a target="_blank" href="https://github.com/symfonyse/november-camp/raw/gh-pages/SponsorGuide.pdf">sponsor guide</a> to find out about our sponsor packages.</p>
+                        </div>
+                        <div class="span2"></div>
+                    </div>
 
-	            </div>
-	        </section>
+                </div>
+            </section>
 
-	<!-- Venue -->
-        <section class="wrapper bg-turquoise colored">
+    <!-- Venue -->
+        <section class="wrapper bg-white">
             <a class="anchor" id="venue"></a>
             <div class="container">
                 <div class="row">
@@ -180,7 +311,7 @@
                 </div>
                 <div class="row">
                     <div class="span2">
-                        
+
                     </div>
                     <div class="span6">
                         <p>Two minutes from Stockholm Central Station, with easy access by plane, train or subway, the Scandic Grand Central is ideally located for our conference.</p>
@@ -191,23 +322,22 @@
                         <p>Nearest subway station: T-centralen</p>
                     </div>
                     <div class="span4">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.939254119927!2d18.055923000000007!3d59.333967999999885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d612c1b47eb%3A0xff3b555a835c2e3e!2sScandic+Grand+Central!5e0!3m2!1ssv!2sse!4v1400675590544" width="350" height="350" frameborder="0" style="border:0"></iframe>
-		    </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2034.939254119927!2d18.055923000000007!3d59.333967999999885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d612c1b47eb%3A0xff3b555a835c2e3e!2sScandic+Grand+Central!5e0!3m2!1ssv!2sse!4v1400675590544" width="350" height="350" frameborder="0" style="border:0"></iframe>
+            </div>
                 </div>
 
             </div>
         </section>
 
 
-        <section class="wrapper mini-wrapper">
+        <section class="wrapper mini-wrapper bg-turquoise colored">
             <a class="anchor" id="tickets"></a>
             <div class="container">
                 <div class="row">
                     <div class="span12 text-center mar-t50">
-                        <hgroup class="main-title white">
-                            <h2>Tickets</h2>
-                            <h3>Sounds like a fun day, right? Get your ticket today for early bird price €89 (+ VAT) and we'll see you 14th of November!</h3>
-                        </hgroup>
+                        <h2>Tickets</h2>
+                        <h3>Sounds like a fun day, right? Standard tickets are €109 (+ VAT), student tickets are €59 (+ VAT)</h3>
+                        <h3>We'll see you 14th of November!</h3>
 
                         <a class="btn btn-large btn-transparent uppercase" href="http://tickets.symfony.se">Buy tickets</a>
                     </div>
@@ -224,8 +354,9 @@
                         <ul class="unstyled inline text-right footer-nav">
                             <li><a href="/">Home</a></li>
                             <li><a href="#home">November Camp</a></li>
-                            <li><a href="#call-for-papers">Call for Papers</a></li>
-							<li><a href="#sponsors">Sponsors</a></li>
+                            <li><a href="#labs">Labs</a></li>
+                            <li><a href="#speakers">Speakers</a></li>
+                            <li><a href="#sponsors">Sponsors</a></li>
                             <li><a href="#venue">Venue</a></li>
                             <li><a href="#tickets">Tickets</a></li>
                         <!--
