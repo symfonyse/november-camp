@@ -1,48 +1,48 @@
-.clear{
-	clear:both;
+.clear {
+    clear: both;
 }
 
-.brand span{
-	margin: 30px 0 0 10px;
-	float: left;	
+.brand span {
+    margin: 30px 0 0 10px;
+    float: left;
 }
 
-.icon-logo{
-	background-image: url('../images/logo-icon.png');
-	width: 75px;
-	height: 75px;
-	float: left;
+.icon-logo {
+    background-image: url('../images/logo-icon.png');
+    width: 75px;
+    height: 75px;
+    float: left;
 }
 
-.navbar .nav{
-	margin: 15px 10px 0 0;
+.navbar .nav {
+    margin: 15px 10px 0 0;
 }
 
 .buy-button {
-	background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg.png') no-repeat scroll 0% 0% transparent;
-	color: #00245D;
-	display: inline-block;
-	font-family: Arial;
-	font-size: 16px;
-	font-weight: bold;
-	height: 55px;
-	padding-top: 15px;
-	text-decoration: none;
-	text-indent: 25px;
-	width: 170px;
+    background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg.png') no-repeat scroll 0% 0% transparent;
+    color: #00245D;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 55px;
+    padding-top: 15px;
+    text-decoration: none;
+    text-indent: 25px;
+    width: 170px;
 }
 
-.wrapper a{
-	text-decoration: underline;
+.wrapper a {
+    text-decoration: underline;
 }
 
 .wrapper a:hover,
 .wrapper .buy-button {
-	text-decoration: none;
+    text-decoration: none;
 }
 
-.headline-speaker{
-	margin-bottom: 2em;
+.headline-speaker {
+    margin-bottom: 2em;
 }
 
 .speaker-row header h4, .speaker-row header h5 {
@@ -55,4 +55,14 @@
 
 .speaker-row {
     margin-bottom: 2em;
+}
+
+.speaker-row img {
+    border-radius: 200px;
+}
+
+@media (max-width: 767px) {
+    .speaker-row img {
+        max-width: 200px;
+    }
 }
