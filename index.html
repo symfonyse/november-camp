@@ -136,7 +136,165 @@
                         </hgroup>
                     </div>
                 </div>
+
+                <div class="row headline-speaker speaker-row">
+                    <div class="span11">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/Mathias_Verraes.jpg" alt="Mathias Verraes"/>
+                            </div>
+                            <div class="span10">
+                                <h2>Decoupling the Model from the Framework</h2>
+                                <span>by Mathias Verraes</span><br/>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/mathiasverraes">@mathiasverraes</a>
+
+                                <div>
+                                    <div class="span6">
+                                        <p>Domain-Driven Design tackles the fundamental difficulty of working with complexity in software. It puts the domain model in the center of the system, blissfully ignorant of the infrastructure around it. But as soon as you try to build even a simple application, using some of the patterns and ideas from DDD, you tend to get stuck. The framework begins to fight back. It seems it has a will of its own, and it dictates how you should structure your code. Is a strong, independent domain model just a theoretical ideal?</p>
+                                        <p>You can have both the benefits of framework, and the freedom to model to your needs. We’ll explore patterns, flow, coupling, and reasoning about code.</p>
+                                    </div>
+                                    <div class="span6">
+                                        <p>Mathias Verraes is a recovering music composer turned programmer, blogger, and speaker. He’s the owner of Value Object Comm.V, a small consultancy company. As a technical and strategic advisor, Mathias helps teams to build enterprise applications for complex business domains. For some weird reason, he enjoys improving legacy projects. He’s teaches Domain-Driven Design courses, and founded the Belgian DDD community. Mathias lives in Kortrijk, Belgium, where in his spare time he reads books, and invents crazy Lego structures with his two boys.</p>
+                                    </div>
+                                    <br class="clear"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row speaker-row">
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/matthias-noback.jpg" alt="Matthias Noback"/>
+                            </div>
+                            <div class="span9">
+                                <h4>A Series of Fortunate Events</h4>
+                                <span>with Matthias Noback</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/matthiasnoback">@matthiasnoback</a>
+                                <p>What is an event really? How can you best describe an event in your code? What types of events are there, and how do you decide whether or not to implement something as an event?</p>
+                                <p>In this talk we start with a straightforward command-only piece of code. We extract events from it and start moving the event handling code out, trying different design patterns on the way. First we try Observer. Then we introduce event data, event handlers and a Mediator between our code and the event handlers. Finally we pick a well-known event dispatcher implementation (the Symfony EventDispatcher) and see how it uses the Chain of Responsibility design pattern to control the entire flow of a web application request.</p>
+                                <p>In the end I will answer some burning questions like: is it safe to use events all over the place and rely on event handlers to do some really important stuff? How do I overcome the indirection in my event-driven code? And how can I quickly find out what happens where?</p>
+                                <p>Matthias Noback started his professional career 12 years ago as a freelance web developer. After working as a PHP developer for various companies, he decided to try something else; though programming will always be his passion, he has now taken this further and is also teaching, writing and consulting. He is the author of "A Year With Symfony" and "Principles of PHP Package Design" and regularly posts on his blog <a target="_blank" href="http://php-and-symfony.matthiasnoback.nl">PHP & Symfony</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/raul_fraile.jpg" alt="Raul Fraile"/>
+                            </div>
+                            <div class="span9">
+                                <h4>Malicious cryptography in Symfony apps</h4>
+                                <span>with Raul Fraile</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/raulfraile">@raulfraile</a>
+                                <p>Cryptovirology studies how to use cryptography to design malicious software, given that public-key cryptography can be used to break the symmetry between what an antivirus analyst sees regarding a virus and what the virus writer sees. In this talk we will create a simple cryptovirus in PHP - for educational purposes - able to infect a Symfony2 app and encrypt data such as database records or user uploaded files using public key cryptography with OpenSSL.</p>
+                                <p>To create the virus we will study how Symfony works internally, especially what kernel events are dispatched and how to use them to attach our virus. Several strategies to hide the virus will be discussed. Simple ones like using different encodings and more advanced strategies such as polymorphic code. Finally, we will see how we can defend ourselves from this kind of attacks.</p>
+                                <p>Software engineer at Acilia, specialised in PHP and Symfony2. SensioLabs Symfony Certified Developer and PHP Zend Certified Engineer. I hold a BS degree in Computer Science and I am currently a MSc(Res) student in Computing Technologies, focused on data compression, cryptography and steganography. Created LadybugPHP, an extensible PHP dumper. Love reading and learning new stuff every day. Proud dad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row speaker-row">
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/Carl_Vuorinen.png" alt="Carl Vuorinen"/>
+                            </div>
+                            <div class="span9">
+                                <header>
+                                    <h4>Tackling technical debt</h4>
+                                    <h5>- breathe new life into a legacy project with Symfony2</h5>
+                                </header>
+                                <span>with Carl Vuorinen</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/cvuorinen">@cvuorinen</a>
+                                <p>Dealing with an old legacy project can be frustrating. Most of the time a massive rewrite is not feasible and you are left to deal with a codebase that is far from ideal, has lots of technical debt and bad practices.</p>
+                                <p>In this talk you'll learn how you can use Symfony2 framework side by side with a legacy codebase. The talk will cover how to introduce new features to the software using high quality code and best practices while at the same time maintaining the legacy codebase. We'll also explore some strategies for refactoring the old code a little bit at a time using Symfony components.</p>
+                                <p>Carl Vuorinen is a web developer and team lead at W3 Group Finland. He has over ten years of experience in web development and has been working with commercial PHP projects since 2005. He has experience with various open source frameworks, lately focusing on Symfony2 and AngularJS frameworks.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/niklas_modess.jpg" alt="Niklas Modess"/>
+                            </div>
+                            <div class="span9">
+                                <h4>Deploying PHP applications</h4>
+                                <span>with Niklas Modess</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/niklasmodess">@niklasmodess</a>
+                                <p>The world of PHP is very interesting right now and it has been catching up on  best coding practises. It's time we bring our deploy processes up to par with this and start using best practises for it as well. So what are the goals for it and which steps can be taken to reach them? How can we make the process fit better into the more and more Agile world we live in?</p>
+                                <p>Niklas Modess is a freelance web architect. Works mostly with Laravel, but it wouldn't exist without the awesome Symfony components. He has always been interested in the deploy process and is currently writing a book on the subject. Trying to spread the word on how a great deploy process makes life as a developer so much easier!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row speaker-row">
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="images/speakers/Pawel_Jedrzejewski.jpg" alt="Paweł Jędrzejewski"/>
+                            </div>
+                            <div class="span9">
+                                <header>
+                                    <h4>Introduction to Sylius</h4>
+                                    <h5>- Symfony2 e-commerce</h5>
+                                </header>
+                                <span>with Paweł Jędrzejewski</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/pjedrzejewski">@pjedrzejewski</a>
+                                <p>Developers and shop owners are looking for alternatives to complex and monolithic solutions. Sylius is built on top of the latest technologies in PHP world and is one of the most promising e-commerce platforms.</p>
+                                <p>In this talk I will introduce the ideas & philosophy behind the project and show how easy it is to customize Sylius.</p>
+                                <p>Paweł is an entrepreneur and software developer living in Poland. In 2011 he created Sylius - an open source e-commerce solution for Symfony2. Project is still in development with more than 150 contributors and nearly 500,000 downloads, but has already been used by people worldwide. Lakion, his company, is providing commercial services for Sylius and supports the community.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="http://placehold.it/85x85" alt="Magnus Nordlander"/>
+                            </div>
+                            <div class="span9">
+                                <h4>TBA</h4>
+                                <span>with Magnus Nordlander</span>
+                                <i class="icon-twitter"></i>
+                                <a href="https://twitter.com/drrotmos">@drrotmos</a>
+                                <p>TBA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row speaker-row">
+                    <div class="span6">
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <img src="http://placehold.it/85x85" alt="TBA"/>
+                            </div>
+                            <div class="span9">
+                                <h4>TBA</h4>
+                                <!--<span>with Mr X</span>
+                                 <i class="icon-twitter"></i>
+                                 <a href="https://twitter.com/">@</a>
+                                 <p></p>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </section>
 
         <!-- Sponsor -->

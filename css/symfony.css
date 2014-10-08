@@ -44,3 +44,19 @@
 .headline-speaker{
 	margin-bottom: 2em;
 }
+
+.headline-speaker h2 {
+    font-size: 48px;
+}
+
+.speaker-row header h4, .speaker-row header h5 {
+    margin-bottom: 0;
+}
+
+.speaker-row header {
+    margin-bottom: 1em;
+}
+
+.speaker-row {
+    margin-bottom: 2em;
+}
