@@ -67,6 +67,13 @@
     text-align: center;
 }
 
+.sponsors figure.silver{
+    height: 90px;
+}
+.sponsors figure.other{
+    height: 50px;
+}
+
 
 @media (max-width: 767px) {
     .speaker-row img {
